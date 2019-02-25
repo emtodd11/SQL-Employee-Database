@@ -1,10 +1,3 @@
--- DROP TABLE employees;
--- DROP TABLE departments;
--- DROP TABLE dept_emp;
--- DROP TABLE dept_manager;
--- DROP TABLE salaries;
--- DROP TABLE titles;
-
 CREATE TABLE employees (
 	emp_no INT NOT NULL PRIMARY KEY,
 	birth_date DATE,
@@ -52,3 +45,10 @@ CREATE TABLE titles (
 	from_date DATE,
 	to_date DATE
 );
+
+SELECT * FROM employees;
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM salaries;
+SELECT * FROM titles;
